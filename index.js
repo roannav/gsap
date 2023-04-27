@@ -8,6 +8,7 @@ gsap.from(".stick", {
   duration: 5,
 });
 
+
 // The default for transform-origin is 50% 50%.
 // See what happens when we change the origin
 // before rotation.
@@ -39,4 +40,37 @@ gsap.to(".origin_100_0", {
 
 gsap.to(".origin_default", {
   rotation: 30,
+});
+
+
+// Do the same transform-origin test,
+// but with scale.
+
+gsap.to(".scale_origin_50_50", {
+  transformOrigin: "50% 50%",
+  scale: 2,
+});
+
+gsap.to(".scale_origin_0_0", {
+  transformOrigin: "0% 0%",
+  scale: 2,
+});
+
+gsap.to(".scale_origin_0_100", {
+  transformOrigin: "0% 100%",
+  scale: 2,
+});
+
+gsap.to(".scale_origin_100_100", {
+  transformOrigin: "100% 100%",
+  scale: 2,
+});
+
+gsap.to(".scale_origin_100_0", {
+  transformOrigin: "100% 0%",
+  scale: 2,
+});
+
+gsap.to(".scale_origin_default", {
+  scale: 2,
 });
