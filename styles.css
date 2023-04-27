@@ -1,0 +1,60 @@
+.box {
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+
+.rect {
+  display: block;
+  height: 100px;
+  width: 200px;
+}
+
+.stick {
+  display: block;
+  height: 100px;
+  width: 15px;
+}
+
+.circle {
+  display: block;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.aqua {
+  background-color: aqua;
+}
+
+.lightgreen {
+  background-color: lightgreen;
+}
+  
+.row2 {
+  position: absolute;
+  top: 120px;
+}
+  
+.row3 {
+  position: absolute;
+  top: 240px;
+}
+  
+.row4 {
+  position: absolute;
+  top: 360px;
+}
+  
+.row5 {
+  position: absolute;
+  top: 480px;
+}
