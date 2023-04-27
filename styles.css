@@ -10,10 +10,25 @@
   width: 200px;
 }
 
-.stick {
+.rect_outline {
+  display: block;
+  height: 100px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.stick,
+.stick2 {
   display: block;
   height: 100px;
   width: 15px;
+}
+
+.stick2_outline {
+  display: block;
+  height: 100px;
+  width: 15px;
+  border: 1px solid black;
 }
 
 .circle {
@@ -38,23 +53,57 @@
 .lightgreen {
   background-color: lightgreen;
 }
-  
+
+.lightblue {
+  background-color: lightblue;
+}
+
 .row2 {
   position: absolute;
   top: 120px;
 }
-  
+
 .row3 {
   position: absolute;
   top: 240px;
 }
-  
+
 .row4 {
   position: absolute;
   top: 360px;
 }
-  
+
 .row5 {
   position: absolute;
-  top: 480px;
+  top: 550px;
+}
+
+.row6 {
+  position: absolute;
+  top: 600px;
+}
+
+.col2 {
+  position: absolute;
+  left: 120px;
+}
+
+.col3 {
+  position: absolute;
+  left: 240px;
+}
+
+.col4 {
+  position: absolute;
+  left: 360px;
+}
+
+.col5 {
+  position: absolute;
+  left: 480px;
+}
+
+.col6 {
+  position: absolute;
+  left: 600px;
 }
